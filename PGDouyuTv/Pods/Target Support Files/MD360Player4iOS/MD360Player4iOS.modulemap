@@ -1,0 +1,6 @@
+framework module MD360Player4iOS {
+  umbrella header "MD360Player4iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

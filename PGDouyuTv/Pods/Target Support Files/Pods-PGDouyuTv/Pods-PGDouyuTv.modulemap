@@ -1,0 +1,6 @@
+framework module Pods_PGDouyuTv {
+  umbrella header "Pods-PGDouyuTv-umbrella.h"
+
+  export *
+  module * { export * }
+}

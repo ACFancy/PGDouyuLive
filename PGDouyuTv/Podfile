@@ -1,0 +1,42 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, "8.0"
+# Uncomment this line if you're using Swift
+use_frameworks!
+
+
+target :PGDouyuTv do
+
+   #富文本处理
+   pod 'YYText', '~> 1.0.5'
+   #字典转模型
+   pod 'YYModel', '~> 1.0.4'
+   pod 'MJExtension', '~> 3.0.13'
+   #网络请求
+   pod 'AFNetworking', '~> 3.1.0'
+   #Socket TCP/UDP连接
+   pod 'CocoaAsyncSocket', '~> 7.5.0'
+   #数据库
+   pod 'Realm', '~> 1.0.2'
+   pod 'FMDB', '~> 2.6.2'
+   #网络图片下载管理
+   pod 'SDWebImage', '~> 3.8.1'
+   #弹幕
+   pod 'BarrageRenderer', '~> 1.9.0'
+   #提醒
+   pod 'MBProgressHUD', '~> 1.0.0'
+   #刷新
+   pod 'MJRefresh', '~> 3.1.12'
+   #VR Player
+   pod 'MD360Player4iOS', '~> 1.1.3.beta'
+   #响应式 作为MVVM+RAC binder
+   pod 'ReactiveCocoa', '~> 4.2.2'
+   #自动布局
+   pod 'Masonry', '~> 1.0.1'
+   #腾讯bugly集成
+   pod 'Bugly', '~> 2.4.0'
+   #友盟集成
+#platform :ios,'5.0'
+#   pod 'UMengSocialCOM', '~> 5.2.1'
+
+end
+

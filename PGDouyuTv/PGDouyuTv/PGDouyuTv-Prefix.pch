@@ -1,0 +1,15 @@
+//
+//  PGDouyu-Prefix.pch
+//  PGDouyuTv
+//
+//  Created by 恭喜发财 on 16/9/11.
+//  Copyright © 2016年 PGWizard. All rights reserved.
+//
+
+#ifndef PGDouyu_Prefix_pch
+#define PGDouyu_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PGDouyu_Prefix_pch */
