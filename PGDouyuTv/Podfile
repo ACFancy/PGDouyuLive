@@ -5,11 +5,13 @@ use_frameworks!
 
 
 target :PGDouyuTv do
-
+    
+   #YY的一套
+   pod 'YYKit', '~> 1.0.7'
    #富文本处理
-   pod 'YYText', '~> 1.0.5'
+   #pod 'YYText', '~> 1.0.5'
    #字典转模型
-   pod 'YYModel', '~> 1.0.4'
+   #pod 'YYModel', '~> 1.0.4'
    pod 'MJExtension', '~> 3.0.13'
    #网络请求
    pod 'AFNetworking', '~> 3.1.0'

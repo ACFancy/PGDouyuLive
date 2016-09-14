@@ -107,6 +107,9 @@
 		5E43A4EF1D8540A800CD3588 /* UserCenterTableCellItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E43A4931D8540A800CD3588 /* UserCenterTableCellItems.plist */; };
 		5E43A4F01D8540A800CD3588 /* UserCenterTableCellItemsAllRoom.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E43A4941D8540A800CD3588 /* UserCenterTableCellItemsAllRoom.plist */; };
 		5E43A4F11D8540A800CD3588 /* WebViewJavascriptBridge.js.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5E43A4951D8540A800CD3588 /* WebViewJavascriptBridge.js.txt */; };
+		5EE4ABF91D87A1A200914FEC /* PGDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE4ABF81D87A1A200914FEC /* PGDTabBarController.m */; };
+		5EE4ABFC1D87A1C700914FEC /* PGDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE4ABFB1D87A1C700914FEC /* PGDNavigationController.m */; };
+		5EE4AC041D87A92800914FEC /* PGDADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE4AC031D87A92800914FEC /* PGDADViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -236,6 +239,13 @@
 		5E43A4941D8540A800CD3588 /* UserCenterTableCellItemsAllRoom.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = UserCenterTableCellItemsAllRoom.plist; sourceTree = "<group>"; };
 		5E43A4951D8540A800CD3588 /* WebViewJavascriptBridge.js.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WebViewJavascriptBridge.js.txt; sourceTree = "<group>"; };
 		5E43A4F21D856DD200CD3588 /* PGDouyuTv-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PGDouyuTv-Prefix.pch"; sourceTree = "<group>"; };
+		5EE4ABF71D87A1A200914FEC /* PGDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGDTabBarController.h; sourceTree = "<group>"; };
+		5EE4ABF81D87A1A200914FEC /* PGDTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGDTabBarController.m; sourceTree = "<group>"; };
+		5EE4ABFA1D87A1C700914FEC /* PGDNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGDNavigationController.h; sourceTree = "<group>"; };
+		5EE4ABFB1D87A1C700914FEC /* PGDNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGDNavigationController.m; sourceTree = "<group>"; };
+		5EE4AC021D87A92800914FEC /* PGDADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGDADViewController.h; sourceTree = "<group>"; };
+		5EE4AC031D87A92800914FEC /* PGDADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGDADViewController.m; sourceTree = "<group>"; };
+		5EE4AC081D87AB9800914FEC /* SingleTon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleTon.h; sourceTree = "<group>"; };
 		CCB9CE5A94FAB6B049B01201 /* Pods_PGDouyuTv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PGDouyuTv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -343,6 +353,7 @@
 				5E43A36F1D85312C00CD3588 /* PGTools */,
 				5E43A3601D85312C00CD3588 /* Main */,
 				5E43A3561D85312C00CD3588 /* Home */,
+				5EE4ABFD1D87A24200914FEC /* Room */,
 				5E43A35B1D85312C00CD3588 /* Live */,
 				5E43A3511D85312C00CD3588 /* Attention */,
 				5E43A3651D85312C00CD3588 /* Mine */,
@@ -482,6 +493,12 @@
 		5E43A3611D85312C00CD3588 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5EE4ABF71D87A1A200914FEC /* PGDTabBarController.h */,
+				5EE4ABF81D87A1A200914FEC /* PGDTabBarController.m */,
+				5EE4ABFA1D87A1C700914FEC /* PGDNavigationController.h */,
+				5EE4ABFB1D87A1C700914FEC /* PGDNavigationController.m */,
+				5EE4AC021D87A92800914FEC /* PGDADViewController.h */,
+				5EE4AC031D87A92800914FEC /* PGDADViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -583,6 +600,7 @@
 		5E43A36F1D85312C00CD3588 /* PGTools */ = {
 			isa = PBXGroup;
 			children = (
+				5EE4AC081D87AB9800914FEC /* SingleTon.h */,
 			);
 			path = PGTools;
 			sourceTree = "<group>";
@@ -738,6 +756,45 @@
 				5E43A4951D8540A800CD3588 /* WebViewJavascriptBridge.js.txt */,
 			);
 			path = Plist;
+			sourceTree = "<group>";
+		};
+		5EE4ABFD1D87A24200914FEC /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				5EE4ABFE1D87A24200914FEC /* Controller */,
+				5EE4ABFF1D87A24200914FEC /* Model */,
+				5EE4AC001D87A24200914FEC /* View */,
+				5EE4AC011D87A24200914FEC /* ViewModel */,
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
+		5EE4ABFE1D87A24200914FEC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5EE4ABFF1D87A24200914FEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5EE4AC001D87A24200914FEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5EE4AC011D87A24200914FEC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		EEB907F74FCC7E7243AF2B15 /* Pods */ = {
@@ -1026,7 +1083,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E43A3221D852C7A00CD3588 /* AppDelegate.m in Sources */,
+				5EE4AC041D87A92800914FEC /* PGDADViewController.m in Sources */,
 				5E43A31F1D852C7A00CD3588 /* main.m in Sources */,
+				5EE4ABF91D87A1A200914FEC /* PGDTabBarController.m in Sources */,
+				5EE4ABFC1D87A1C700914FEC /* PGDNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

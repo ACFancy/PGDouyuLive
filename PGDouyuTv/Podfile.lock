@@ -36,8 +36,9 @@ PODS:
   - SDWebImage (3.8.1):
     - SDWebImage/Core (= 3.8.1)
   - SDWebImage/Core (3.8.1)
-  - YYModel (1.0.4)
-  - YYText (1.0.5)
+  - YYKit (1.0.7):
+    - YYKit/no-arc (= 1.0.7)
+  - YYKit/no-arc (1.0.7)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
@@ -53,8 +54,7 @@ DEPENDENCIES:
   - ReactiveCocoa (~> 4.2.2)
   - Realm (~> 1.0.2)
   - SDWebImage (~> 3.8.1)
-  - YYModel (~> 1.0.4)
-  - YYText (~> 1.0.5)
+  - YYKit (~> 1.0.7)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
@@ -71,9 +71,8 @@ SPEC CHECKSUMS:
   Realm: 9d5c46a4d7d27958530a8dfc58f63a99e5c2cba3
   Result: 18e1a7597fbcca5923c565b40a25a98afafdee02
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
-  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
-  YYText: ac09660c9ccd9b817f409a20caa6f5587444d2ae
+  YYKit: 843d1b26e20b82c695790c9a89907eaa1e99907f
 
-PODFILE CHECKSUM: ee721531f3dc8c086aa75c1473f25238837c77af
+PODFILE CHECKSUM: 85cb76ef7887bd9914c3fa3f40233095e2f3f2b6
 
 COCOAPODS: 1.0.1
